@@ -1,0 +1,37 @@
+
+
+-- Work of data EF
+Microsoft.EntityFrameworkCore.Design 7.0.24
+Microsoft.EntityFrameworkCore.SqlServer 7.0.14
+Microsoft.EntityFrameworkCore.Tools 7.0.14
+Microsoft.EntityFrameworkCore 7.0.14
+Microsoft.EntityFrameworkCore.Relational 7.0.14
+Microsoft.AspNetCore.Identity.EntityFrameworkCore 7.0.14
+
+-- Setup read file json connectionStrings
+Microsoft.Extensions.Configuration.FileExtensions 7.0.0
+Microsoft.Extensions.Configuration.Json 7.0.0
+
+--- identity------
+IdentityServer4 4.1.2
+IdentityServer4.Storage 4.1.2
+IdentityServer4.AspNetIdentity 4.1.2
+IdentityServer4.AccessTokenValidation 3.0.1
+IdentityServer4.EntityFramework.Storage 4.1.2
+IdentityServer4.EntityFramework 4.1.2
+
+
+--- write Log ----
+Serilog 3.1.1
+Serilog.Sinks.File 5.0.0
+Serilog.Sinks.Console 5.0.0
+Serilog.Sinks.Telegram 0.2.1
+
+
+-------IFormFile------
+Microsoft.Extensions.Hosting 7.0.1
+
+
+-----Note ------
+When getting the source, deploy clean the Migration file, and then add the database.
+If the migration fails when getting the source late version, delete the old database and add the database again
